@@ -1,9 +1,502 @@
-<html>
- <head>
- </head>
- <body>
-    <b>Hello World</b>
-    <p>Hello World</p>
-     Hello World     
- </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chethana Nanjundappa Portfolio</title>
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Box Icons
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ -->
+
+    <!--Swiper js-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--======= Header =============-->
+    <header id="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo-png.png"
+            alt=""
+            id="img_logo"
+            class="img-fluid"
+          />
+        </a>
+        <ul class="menu">
+          <li class="menu_item">
+            <a href="#hero" class="menu_link">Home</a>
+          </li>
+          <li class="menu_item">
+            <a href="#about" class="menu_link">About</a>
+          </li>
+          <li class="menu_item">
+            <a href="#resume" class="menu_link">Resume</a>
+          </li>
+          <li class="menu_item">
+            <a href="#portfolio" class="menu_link">Portfolio</a>
+          </li>
+          <!-- <li class="menu_item">
+                    <a href="#services" class="menu_link">Services</a>
+                </li> -->
+          <li class="menu_item">
+            <a href="#contact" class="menu_link">Contact</a>
+          </li>
+          <ion-icon name="close-outline" class="close_icon"></ion-icon>
+        </ul>
+        <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+      </div>
+    </header>
+
+    <main>
+      <!--======= Hero Section =============-->
+      <section class="hero section" id="hero">
+        <div class="hero_container container grid">
+          <div class="hero_content">
+            <h4>Hi There,</h4>
+            <h1>
+              I'm a
+              <span
+                class="typed"
+                data-typed-items="Sofware Engineer"
+              ></span>
+            </h1>
+            <p>
+              Dedicated and results-oriented professional with 8 years of experience in software development, seeking a challenging role as Software
+Engineer. Equipped with a strong technical background and experience in software development life-cycle processes, I aim to leverage
+my skills in requirement gathering, analysis and solution design to drive business success and facilitate the delivery of software
+solutions.
+            </p>
+            <div class="hero_social">
+             
+              <a href="https://www.linkedin.com/in/chethana18/"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+              <a href="https://github.com/chethanan18"
+                ><ion-icon name="logo-github"></ion-icon
+              ></a>
+            </div>
+            <a href="#resume" class="btn">
+              Read More
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="hero_img">
+            <img
+              src="./assets/images/girlImage1.png"
+              alt=""
+              class="image-fluid"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--======= About Section =============-->
+    
+
+      <!--======= Resume Section =============-->
+      <section class="resume section" id="resume">
+        <h2 class="section_title">Resume</h2>
+
+        <div class="resume_container container grid">
+          <div class="resume_tabs">
+            <ul>
+              <li>
+                <a href="#page-1" class="current">Education</a>
+              </li>
+              <li>
+                <a href="#page-2">Experience</a>
+              </li>
+              <li>
+                <a href="#page-3">Skills</a>
+              </li>
+              <li>
+                <a href="#page-4">Certification/Awards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="resume_content">
+            <div class="page one" id="page-1">
+              <div class="page_heading">Education</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap_icon">
+                  <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2004-2008</span>
+                  <h4> Bachelor of Engineering in Computer Science</h4>
+                  <span class="position">
+                   Visvesvaraya Technological University, India</span
+                  >
+                  <p>
+                    During my undergraduate studies in Engineering, I developed
+                    a solid foundation in problem-solving, analytical skills,
+                    and hands-on experience in software design. My coursework
+                    and projects have provided me with a deep understanding of
+                    core principles in engineering and technology, laying the
+                    groundwork for my ongoing professional growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="page two" id="page-2">
+              <div class="page_heading">Experience</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap_icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">Jan 2016 - Apr 2018</span>
+                  <h4>Associate Consultant</h4>
+                  <span class="position">
+                    Siemens Healthineers, Bengaluru, India </span
+                  >
+                  <p>
+                    • Analysis and design the requirements before development and identify and gaps.<br>
+                    • Work closely with other development teams to communicate requirements, facilitate sprint planning and ensure timely
+                      delivery of features/defects<br>
+                    • Involved in analyzing the causes for the failures in the application from the customer site by collecting the data and
+                      analyzing the datasets. Also part of handling high priority customer requests to immediately deliver the required fixes<br>
+                    • Worked with Subject Matter Experts to comprehend the artifacts during the migration of the application<br>
+                    • Participated in code and test case reviews w.r.t clinical use cases<br>
+                    • Coordination with multiple teams to publish the changes across the project<br>
+                    • Document updates on the requirement changes<br>
+                    • Traveled overseas to attend meetings and training with other teams in the project<br>
+                  </p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap_icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">Apr 2012 – Dec 2015 </span>
+                  <h4> Senior System Engineer</h4>
+                  <span class="position">Siemens Technology and Services Pvt Ltd, Bengaluru, India</span>
+                  <p>
+                    • Was part of the web application (C#), which was used for setting servers, maintaining unique identification for patient and
+                      to retrieve the patient data etc.<br>
+                    • The application used 3-tier architecture i.e., MVP - Model for business layer, Presenter for logical layer and View for
+                      presentation layer<br>
+                    • Worked in a scrum team and delivered the features in 2-3 weeks of time span<br>
+                    • Worked closely with project leads, architects, test team, business users/BAs for project tracking<br>
+                    • Maintained organized documentation along with complex reports<br>
+                    • Presentation of implemented features to all the stakeholders across and acceptance of any feedback<br>
+                  </p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap_icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">Nov 2009 – Apr 2012</span>
+                  <h4>Software Engineer</h4>
+                  <span class="position">Mphasis Limited, Bengaluru, India</span>
+                  <p>
+                    • Involved in developing a web application to provide 401k insights to customers, enabling them to plan their investment<br>
+                    • It was developed using technologies like ASP.NET, MVC 3 framework etc.<br>
+                    • Developed front end using HTML5, CSS3 and JavaScript framework in collaboration with UX team<br>
+                    • Implemented API proxy to access the actual web services and test them using Postman and other tools<br>
+                    • Identified and prepared test plan covering all functional and non-functional requirements<br>
+                    • Coordinated with third party vendors (Sun Guard and other teams)<br>
+                    • Involved in performance testing the application<br>
+                  </p>
+                </div>
+              </div>
+              
+              
+            </div>
+            <div class="page three" id="page-3">
+              <div class="page_heading">Skills</div>
+              <div class="progressBoxes grid">
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>CSS</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>Javascript</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>AngularJs</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>.Net</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>C#</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>ASP.Net</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>SQL</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>MVC</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>Powershell</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 70%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="page four" id="page-4">
+              <div class="page_heading">Certifications / Awards</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap_icon">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">2013</span>
+                  <h4>CEO Special Award</h4>
+                  <span class="position"> Siemens </span>
+                  <p>
+                    Recieved an 'CEO Special Award' certificate(By Gerd Hoefner, CEO of Siemens) in recognition of our contribution
+                    to the success of the Syngo.Plaza Project.
+                  </p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap_icon">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                  <span class="date">Mar 2023 - Mar 2025</span>
+                  <h4>Certified Scrum Product Owner (CSPO), Scrum Alliance</h4>
+                  <p>
+                    Gained practical skills in emphasizing product backlog management, 
+                    stakeholder collaboration, and delivering maximum product value.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=========  Portfolio Section ========== -->      
+
+      <!--========= Testimonial Section ========== -->
+      <section class="testimonial section">
+        <h2 class="section_title">Testimonials</h2>
+
+        <div class="testimonial_container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial_item swiper-slide">
+              <box-icon
+                name="quote-alt-left"
+                type="solid"
+                color="#ff7b00ea"
+              ></box-icon>
+              <p>
+                Chethana worked very successfully as PCP software engineer and architect for the component library "Web UI Fra ework" within a software project with several hundred developers for a medical software product line. In special, I like her commitment and quick problem perception. Dozens of her PCP corrections were sent our to customers and brought into product mainline. With her interesting discussions and pointing out of weaknesses in our software design, we successfully overcome a lot of development issues.
+              </p>
+              <div class="img_name">
+               
+                <span class="name">Michael Burger></span>
+                <span class="post"
+                  >Software Engineer, Siemens</span
+                >
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <box-icon
+                type="solid"
+                name="quote-alt-left"
+                color="#ff7b00ea"
+                class="testimonial_icon"
+              ></box-icon>
+              <p>
+                I enjoyed working with Chethana. She is a very quick learner and an expert in software design and coding. 
+                She is very good and effective in communicating her ideas and thoughts for guiding the team for solutions and is a very good team player.
+              </p>
+              <div class="img_name">
+                <span class="name">Mahesh Varma></span>
+                <span class="post"
+                  >Product Owner at Siemens</span
+                >
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <box-icon
+                type="solid"
+                name="quote-alt-left"
+                color="#ff7b00ea"
+              ></box-icon>
+              <p>
+                Chethana is a dedicated Software Professional. Her technical acumen and communication skills are her strong points and is an asset to the Team. 
+              </p>
+              <div class="img_name">
+                <span class="name">Sai Kiran Koppusetty</span>
+                <span class="post"
+                  >Manager at Mphasis</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <!--========= Contact Section ========== -->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <div class="contact_container container">
+          <form class="contact_content" id="emailForm">
+            <div class="inputs">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <!-- <a href="#" class="btn">Send Message  -->
+            <button type="submit" class="btn">Send Message</button>
+            <div>
+              <h5 class="successMessage"></h5>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!--========= Footer ========== -->
+      <footer>
+        <div class="footer_bg">
+          <div class="footer_container container">
+            <div class="main_footer">
+              <div class="footer_social">
+                <a href="https://www.linkedin.com/in/chethana18/"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+                <a href="https://github.com/chethanan18"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </div>
+              <h4>Chethana Nanjundappa</h4>
+              <p>"Evolving with every challenge, excelling in every medium"</p>
+            </div>
+            <div class="footer_copy">
+              &#169; Pooja Shekhar. All right reserved
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!--Swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Mixitup Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.js"></script>
+
+    <!-- Typed js script-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ionIcons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Box icons-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!--Main js script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
